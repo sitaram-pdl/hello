@@ -1,0 +1,49 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.ehp-district-table1 {
+  width: 70vw;
+}
+
+.sub-container {
+  position: relative;
+  width: calc(100%-8em);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  background-color: white;
+  margin: 3em 4em 4em 4em;
+}
+.header {
+  margin: 2em 0;
+}
+
+@media (max-width: 800px) {
+  .ehp-district-table1 {
+    transform: scale(0.5);
+    margin-top: -8em;
+  }
+}
+@media (max-width: 500px) {
+  .ehp-district-table1 {
+    transform: scale(0.3);
+    margin-top: -10em;
+  }
+}
+.row {
+}
+
+.row:hover.row {
+  background-color: gray !important;
+  cursor: pointer;
+}
+
+/**modal styling */

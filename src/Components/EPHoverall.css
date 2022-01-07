@@ -1,0 +1,140 @@
+.eph-overall{
+    margin-top: 40px;
+    background-color: white;
+    
+}
+
+.eph-overall-heading{
+    background-color: #216A7A;
+    text-align: center;
+    color: white;
+    padding: 30px 0px;
+    
+}
+
+.eph-summary-heading, .eph-summary-subheading{
+    text-align: center;
+    line-height: 1.5;
+}
+
+.eph-summary-heading{
+    text-transform: uppercase;
+    margin-top: 70px;
+    font-size: 24px;
+    color: #505050;
+}
+
+.eph-summary-subheading{
+    margin-bottom: 60px;
+    font-size: 17px;
+    color: #5C5C5C;
+}
+
+.eph-overall-cases{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1rem;
+    justify-content: center;
+    padding: 0px 20px;
+}
+
+.rectangle-data{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.rectangle-data-value{
+    padding-bottom: 4px;
+}
+
+.rectangle-data-name{
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+/* health worker */
+
+.ehp-healthworker-summary{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+}
+
+.total-healthworker-cases{
+    flex: 0.4;
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    grid-gap: 4.3rem 2rem;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+
+.healthworker-data{
+    padding: 10px;
+    background-color: #216A7A;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+.ehp-healthworker-summary .healthworker-data:last-child {
+    justify-self: center;
+    width:100%;
+    grid-column-start: span 2;
+}
+
+.healthworker-district-cases-table{
+    flex: 0.6;
+}
+
+
+
+
+table{
+    width: 100%;
+    height: 500px;
+    border-collapse: collapse;
+}
+
+th{
+    font-size: 16px;
+    background-color: #dfdfdf;
+    background-color: #5C5C5C;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    color: white;
+}
+
+td{
+    padding-left: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  
+.healthworker-district-cases{
+    flex: 0.60;
+    height: 200px;
+    background-color: black;
+}

@@ -1,0 +1,68 @@
+
+
+.png-overall{
+    margin-top: 50px;
+    /* height: 400px; */
+    background-color: white;
+    overflow: hidden;
+}
+
+.overall-heading{
+    background-color: #216A7A;
+    line-height: 1.5;
+
+}
+
+.overall-summary-heading, .updated-para{
+    text-align: center;
+    color: white;
+
+
+}
+
+.overall-summary-heading{
+    padding-top: 20px;
+}
+
+.updated-para{
+    padding-bottom: 20px;
+    font-weight: 100;
+    font-size: 17px;
+}
+
+.overall-cases{
+    /* background-color: yellow; */
+    /* margin-top: 100px; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-top: 78px;
+    /* padding-left: 220px;
+    padding-right: 220px; */
+    grid-gap: 3rem 3.5rem;
+    padding-bottom: 60px;
+    justify-content: center;
+}
+
+
+.circle-data{
+    width:150px;
+    height:150px;
+    background-color: white;
+    border-radius: 50%;
+    /* border: 8px solid red; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+    justify-content: center;
+}
+
+.circle-data-value{
+    margin-bottom: 15px;
+}
+
+.circle-data-name{
+    margin-bottom: 2px;
+    font-size: 14px;
+    font-weight: 500;
+}
